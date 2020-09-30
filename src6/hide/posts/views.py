@@ -9,6 +9,7 @@ def index(request):
 
 def posts(request):
 
+    
     # Get start and end points
     start = int(request.GET.get("start") or 0)
     end = int(request.GET.get("end") or (start + 9))
